@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>郑州轻工业学院软件学院-首页</title>
+<script language="javascript" type="text/javascript">
+
+//js获取日期
+
+function time()
+
+{
+
+  var now= new Date();
+
+  var year=now.getFullYear();
+
+  var month=now.getMonth();
+
+  var date=now.getDate();
+
+//写入相应id
+
+ document.getElementById("time").innerHTML="今天是："+year+"年"+(month+1)+"月"+date+"日";
+
+} 
+
+</script>
+<script type="text/javascript" src="js/audio.min.js"></script>
+<script type="text/javascript">
+audiojs.events.ready(function(){
+	audiojs.createAll();
+});
+</script>
+ <style>
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+</style>
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body" onload="time()">
+
+<div class="top">
+<div class="m4a">
+<audio src="other/music.mp3" preload="auto"></audio>
+</div>
+<div id="time"> 	</div>
+<div class="munes">| <a href="index.html" title="网站首页">网站首页</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1449/list.htm" title="学院概况" target="_blank">学院概况</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1454/list.htm" title="党建工会" target="_blank">党建工会</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/5073/list.htm" title="师资队伍" target="_blank">师资队伍</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1450/list.htm" title="教育教学" target="_blank">教育教学</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1452/list.htm" title="实习实训" target="_blank">实习实训</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1453/list.htm" title="学科与科研" target="_blank">学科与科研</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1455/list.htm" title="学生工作" target="_blank">学生工作</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1456/list.htm" title="就业服务" target="_blank">就业服务</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/1457/list.htm" title="实验中心" target="_blank">实验中心</a> | <a href="http://soft.zzuli.edu.cn/s/104/t/56/p/1/c/2182/list.htm" title="资源下载" target="_blank">资源下载</a> |</div>
+<div class="logo"><img src="images/logo.png" width="244" height="68" alt=""/></div>
+<div class="photo"><img src="images/top.jpg" width="1200" height="300" alt=""/>
+<div class="search">
+<div class="h1">站内搜索</div>
+<div class="soso">
+<input type="text"><input type="button" value="搜索">
+</div>
+</div>
+</div>
+</div>
+<div class="main">
+<div>
+<div class="new">
+<div class="h1"><a href="news.html" title="部门新闻">部门新闻</a></div>
+<div class="size">
+<div class="more"><a href="news.html" title="更多">更多</a></div>
+<ul>
+<li>
+<div><a href="news-1.html" title="软件学院成功举办“阳光心态，激昂青春”心理情景剧大赛">软件学院成功举办“阳光心态，激昂青春”心...</a></div>
+<div class="litime">2015-12-28</div></li>
+<li>
+<div><a href="news-2.html" title="“我承诺，我践行”---软件学院召开学生党支部大会">“我承诺，我践行”---软件学院召开学生党...</a></div>
+<div class="litime">2015-12-25</div></li>
+<li>
+<div><a href="news-3.html" title="追逐青春梦，争做先锋人—软件学院成功举办2015级团干培训活动">追逐青春梦，争做先锋人—软件学院成功举办2..</a>.</div>
+<div class="litime">2015-12-24</div></li>
+<li>
+<div><a href="news-4.html" title="软件学院成功举办教职工学生联谊拔河比赛">软件学院成功举办教职工学生联谊拔河比赛</a></div>
+<div class="litime">2015-12-14</div></li>
+<li>
+<div><a href="http://soft.zzuli.edu.cn/s/104/t/56/4f/8b/info151435.htm" title="软件学院举办纪念“一二.九运动”80周年主题团日活动">软件学院举办纪念“一二.九运动”80周年主...</a></div>
+<div class="litime">2015-12-08</div></li>
+</ul>
+</div>
+</div>
+<div class="show">
+<div class="h1"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/5/list.htm" title="公告通知">公告通知</a></div>
+<div class="size">
+<ul>
+<li>
+<div class="more"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/5/list.htm" title="更多">更多</a></div>
+<div><a href="http://soft.zzuli.edu.cn/s/104/t/56/3a/ed/info146157.htm" title="2015年郑州轻工业学院软件学院招生简章">2015年郑州轻工业学院软件学院招生简章</a></div>
+<div class="litime"> 2015-06-30</div></li>
+<li>
+<div><a href="http://soft.zzuli.edu.cn/s/104/t/56/37/07/info145159.htm" title="郑州轻工业学院文明教师、文明班级、文明学生评选办法">郑州轻工业学院文明教师、文明班级、文明学...</a></div>
+<div class="litime"> 2015-06-02</div></li>
+<li>
+<div><a href="http://soft.zzuli.edu.cn/s/104/t/56/22/6b/info139883.htm" title="关于我校学生参加2015年国际交流项目报名的通知">关于我校学生参加2015年国际交流项目报名的...</a></div>
+<div class="litime">2015-01-27</div></li>
+<li>
+<div><a href="http://soft.zzuli.edu.cn/s/104/t/56/03/35/info131893.htm" title="郑州轻工业学院2015年公开招聘优秀人才公告（软件学院部分）">郑州轻工业学院2015年公开招聘优秀人才公告...</a></div>
+<div class="litime">2015-12-14</div></li>
+</ul>
+</div>
+</div>
+<div class="work">
+<div class="h1"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/8/list.htm" title="教学工作">教学工作</a></div>
+<div class="size">
+<div class="more"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/8/list.htm" title="更多">更多</a></div>
+<ul>
+  <li>	
+    <div><a href="http://soft.zzuli.edu.cn/s/104/t/56/fa/f8/info129784.htm" title="软件学院成功举办第七届河南省青年创新软件设计大赛暨百万青年创业就业大讲堂活动">软件学院成功举办第七届河南省青年创新软件...</a></div>
+    <div class="litime">2014-04-01</div></li>
+  <li>
+  <div><a href="http://soft.zzuli.edu.cn/s/104/t/56/fa/e9/info129769.htm" title="第五届“蓝桥杯”全国软件专业人才设计与创业大赛河南省级赛在我校成功举办">第五届“蓝桥杯”全国软件专业人才设计与创...</a></div>
+  <div class="litime">2014-03-25</div></li>
+  <li>
+  <div><a href="http://soft.zzuli.edu.cn/s/104/t/56/fa/e7/info129767.htm" title="软件学院办学特色">软件学院办学特色</a></div>
+  <div class="litime">2014-03-24</div></li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<div class="student">
+<div class="h1"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/6/list.htm">学生工作</a></div>
+<div class="minisize">
+<div class="more"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/6/list.htm">更多</a></div>
+<ul>
+  <li><div><a href="http://soft.zzuli.edu.cn/s/104/t/56/1a/33/info137779.htm" title="心理健康小故事之——倒退着前进">心理健康小故事之——倒退着前进</a></div></li>
+  <li><div><a href="http://soft.zzuli.edu.cn/s/104/t/56/1a/32/info137778.htm" title="心理健康小故事之——采摘幸福">心理健康小故事之——采摘幸福</a></div></li>
+  <li><div><a href="http://soft.zzuli.edu.cn/s/104/t/56/1a/31/info137777.htm" title="心理健康小故事之——淡定是一味药">心理健康小故事之——淡定是一味药</a></div></li>
+  <li><div><a href="http://soft.zzuli.edu.cn/s/104/t/56/fb/2c/info129836.htm" title="第二十一届科技文化艺术节之青年人中国心原创微博大赛成功举办">第二十一届科技文化艺术节之青年...</a></div></li>
+  <li><div><a href="http://soft.zzuli.edu.cn/s/104/t/56/fb/00/info129792.htm" title="软件学院2014届毕业生向母校捐赠牌匾">软件学院2014届毕业生向母校捐赠...</a></div></li>
+</ul>
+</div>
+</div>
+<div class="classes">
+<div class="h1"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/7/list.htm" title="学术讲堂">学术讲堂</a></div>
+<div class="minisize">
+<div class="more"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/7/list.htm" title="更多">更多</a></div>
+<ul>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/22/55/info139861.htm" title="HTML网页制作--杨华前进">HTML网页制作--杨华前进</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/22/4d/info139853.htm" title="oracle数据库简介-崔霄">oracle数据库简介-崔霄</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/fc/81/info130177.htm" title="印度巴拉蒂尔大学软件学院院长Christopher教授做“医院管理系统”报告">印度巴拉蒂尔大学软件学院院长Ch...</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/f9/49/info129353.htm" title="入侵检测关键技术及应用研究--张玲">入侵检测关键技术及应用研究--张...</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<div class="platform">
+<div class="h1"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/9/list.htm">实训平台</a></div>
+<div class="minisize">
+<div class="more"><a href="http://soft.zzuli.edu.cn/s/104/t/56/p/9/list.htm">更多</a></div>
+<ul>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/1a/81/info137857.htm" title="软件学院校外实训基地">软件学院校外实训基地</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/f9/8a/info129418.htm" title="软件工程综合实训中心简介">软件工程综合实训中心简介</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/f9/8b/info129419.htm" title="甲骨文数据库技术联合实验平台">甲骨文数据库技术联合实验平台</a></li>
+  <li><a href="http://soft.zzuli.edu.cn/s/104/t/56/f9/8c/info129420.htm" title="Web技术与应用研发实验平台">Web技术与应用研发实验平台</a></li>
+</ul>
+</div>
+</div>
+<div class="link">
+<div class="h1">快速通道</div>
+<div class="minisize">
+<ul>
+  <li><a href="http://jiaowu.zzuli.edu.cn/jwweb/" title="教务网络管理系统">教务网络管理系统</a></li>
+  <li><a href="http://202.196.1.135:8666/" title="大学生实训管理系统">大学生实训管理系统</a></li>
+  <li><a href="http://202.196.1.135:8000/" title="毕业设计论文管理系统平台">毕业设计论文管理系统平台</a></li>
+  <li><a href="http://172.20.33.41:10000/rjxy_oraclelesson/" title="Oracle数据库技术资源共享网平台">Oracle数据库技术资源共享网平台</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="photo">
+<div class="container" style="margin-top:60px">
+<div id="slides">
+<img src="images/pic1.jpg" width="512" height="379" alt=""/>
+<img src="images/pic2.jpg" width="512" height="379" alt=""/>
+<img src="images/pic3.jpg" width="512" height="379" alt=""/>
+<img src="images/pic4.jpg" width="512" height="379" alt=""/>
+</div>
+</div>
+  <div class="footer-banner" style="width:728px; margin:30px auto"></div>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 2000,
+          swap: true
+        }
+      });
+    });
+  </script>
+ </div>
+</div>
+<div class="foot">
+<div><hr></div>
+<div class="footer">郑州轻工业学院软件学院版权所有 设计开发：郑州轻工业学院网络中心 <script language="javascript" src="/js/count.js"></script></div>
+<div class="footer">地址：郑州轻工业学院科学校区软件楼 ｜ 联系电话：(86)371-86609573 86609589 传真：(86)371-86609570  </div>
+</div>
+</body>
+</html>

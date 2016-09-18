@@ -1,0 +1,168 @@
+@charset "utf-8";
+@media (min-width: 1600px){
+	.top{
+		margin:0 20em;
+	}
+	.main{
+		margin:0 20em;
+	}
+	.foot{
+		margin:0 20em;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1600px){
+	.top{
+		margin:0 5em;
+	}
+	.main{
+		margin:0 5em;
+	}
+	.foot{
+		margin:0 5em;
+	}
+}
+@media (min-width: 0px) and (max-width: 1000){
+	.top{
+		margin:0 0;
+	}
+	.main{
+		margin:0 0;
+	}
+	.foot{
+		margin:0 0;
+	}
+}
+.logo {
+	width:244px;
+	height:68px;
+	margin-top:-4em;
+}
+.munes {
+	size:12px;
+	width:900px;
+	height:20px;
+	margin-top: 2em;
+	margin-left: 27em;
+}
+#time {
+	margin-left:70em;
+	width:200px;
+	}
+.body {
+	font-family: Arial,Tahoma,Microsoft YaHei,\5fae\8f6f\96c5\9ed1,Hiragino Sans GB,Microsoft JhengHei,微軟正黑體,sans-serif;
+	margin:auto;
+	background-color: #CDEB9B;
+	}
+.top{
+	width:1200px;
+	width:70px;
+}
+.more {
+	float:right;
+	font-size:12px;
+	margin-top:-2em;
+}
+.main{
+	font-size: 15px;
+	width: auto;
+}
+.foot
+{
+}
+.litime {
+	float:right;
+	margin-top:-1.2em;
+}
+.new {
+	width:400px;
+}
+.show {
+	width: 400px;
+	margin-left: 30em;
+	margin-top: -9.5em;
+}
+.work{
+	width: 400px;
+	margin-top: -8.8em;
+	margin-left: 60em;
+}
+.student{
+	margin-top:4em;
+	width:250px;
+}
+.classes{
+	width:250px;
+}
+.search{
+	margin-top:-19em;
+	width:240px;
+	margin-left:60em;
+}
+.link{
+	
+	width:250px;
+	margin-left:71em;
+}
+.photo{
+	margin-left:3em;
+	width:1200px;
+	height:300px;
+}
+.platform{
+	margin-top:-25em;
+	margin-left:71em;
+}
+
+.size{
+	width:400px;
+}
+ul{
+	list-style: none;
+	margin-left:0px;
+	padding-left:0px;
+}
+.minisize
+{
+	width:230px;
+}
+.h1 {
+	width:80px;
+	font-size:16px;
+	font-weight:bold;
+}
+.soso {
+	width:250px;
+	height:30px;
+}
+#photo{
+	width:600px;
+	margin-left:25.6em;
+	margin-top:-22em;
+}
+.footer {	
+	text-align:center
+}
+.m4a{
+	margin-top:1em;
+	height:0px;
+	margin-left:26em;
+}
+.h3{
+	font-size:20px;
+}
+.leftmuen{
+	width:130px;
+	height:200px;
+	margin-top:2em;
+}
+a{text-decoration : none; color:#000000} 
+a:hover{text-decoration:none; color:#FF0004} 
+.list{
+	width:1100px;
+	margin-left:10em;
+	margin-top:-15em;
+	}
+	 .text{
+		 width:1000px;
+		 margin-left:8em;
+	 }
